@@ -44,7 +44,7 @@ struct capability_info pinbased[5] =
 	{ 7, "Process Posted Interrupts" }
 };
 /*
- * Pinbased capabilities
+ * Primary Processor-Based capabilities
  * See SDM volume 3, section 24.6.2
  */
 struct capability_info procbased[21] =
@@ -73,8 +73,8 @@ struct capability_info procbased[21] =
 };
 
 /*
- * Pinbased capabilities
- * See SDM volume 3, section 24.6.2
+ * Secondary Processor-Based capabilities
+ * See SDM volume 3, section 24.6.3
  */
 struct capability_info secProcbased[27] =
 {
@@ -108,8 +108,8 @@ struct capability_info secProcbased[27] =
 	
 };
 /*
- * Pinbased capabilities
- * See SDM volume 3, section 24.6.2
+ * Exit Controls capabilities
+ * See SDM volume 3, section 24.7.2
  */
 
 struct capability_info exitControls[13] =
@@ -130,8 +130,8 @@ struct capability_info exitControls[13] =
 	
 };
 /*
- * Pinbased capabilities
- * See SDM volume 3, section 24.6.2
+ * Entry Controls capabilities
+ * See SDM volume 3, section 24.8.1
  */
 
 struct capability_info entryControls[11] =
